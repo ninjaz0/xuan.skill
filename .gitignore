@@ -1,0 +1,23 @@
+.DS_Store
+**/.DS_Store
+
+# Local editor and OS noise
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Sensitive/raw exports should never be committed into the public skill repo.
+wechat-export*/
+exported_all/
+raw-data/
+raw_data/
+data/
+*.sqlite
+*.db
+*.mbox
+*.eml
+
+# Local Claude/Codex runtime state
+settings.local.json
+.claude/settings.local.json
