@@ -7,7 +7,7 @@
 *.swp
 *.swo
 
-# Sensitive/raw exports should never be committed into the public skill repo.
+# Raw/local exports should never be committed.
 wechat-export*/
 exported_all/
 raw-data/
